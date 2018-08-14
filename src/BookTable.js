@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import BookRow from "./BookRow";
+import bookStore from "./stores/BookStore";
 
 class BookTable extends Component {
   render() {
